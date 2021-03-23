@@ -3,8 +3,8 @@ import Cell from './Cell'
 
 export default class Matrix extends Component {
   
-  genRow = (vals) => {
-    return <Cell values={vals} />
+  genRow = (vals) => {    
+    return this.props.values.map((idx) => <Cell key={idx} values={vals} />)
   }
   
   genMatrix = () => {
