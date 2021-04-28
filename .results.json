@@ -5,9 +5,9 @@
     "passes": 10,
     "pending": 0,
     "failures": 0,
-    "start": "2021-03-22T23:36:46.890Z",
-    "end": "2021-03-22T23:36:47.198Z",
-    "duration": 308
+    "start": "2021-04-28T21:43:46.429Z",
+    "end": "2021-04-28T21:43:46.609Z",
+    "duration": 180
   },
   "tests": [
     {
@@ -20,35 +20,35 @@
     {
       "title": "each sub-array of the default 'values' prop is an array",
       "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
       "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
-      "duration": 8,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 11,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 4,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 1,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 7,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,7 +76,7 @@
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     }
@@ -94,35 +94,35 @@
     {
       "title": "each sub-array of the default 'values' prop is an array",
       "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
       "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
-      "duration": 8,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 11,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 4,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 1,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -136,7 +136,7 @@
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 7,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
@@ -150,7 +150,7 @@
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     }
